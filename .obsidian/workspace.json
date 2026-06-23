@@ -11,10 +11,24 @@
             "id": "3b6152ab6a8c0776",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Federal Commonwealth of Sirocco.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Federal Commonwealth of Sirocco"
             }
           }
         ]
@@ -181,6 +195,9 @@
   },
   "active": "3b6152ab6a8c0776",
   "lastOpenFiles": [
+    "Democratic Republic of Skokholm and the Baffin Islands.md",
+    "Aenderese Republic.md",
+    "Austrovian Empire.md",
     "Organizations and Supranational Unions/High Kingdom of Mediolaurentia.md",
     "Organizations and Supranational Unions/Constantia Pact.md",
     "Conventions/Wrythe Convention.md",
@@ -188,7 +205,6 @@
     "Conventions/Edgbaston Convention.md",
     "Grand Duchy of Navārdia.md",
     "Kingdom of Brienia.md",
-    "Democratic Republic of Skokholm and the Baffin Islands.md",
     "People's Federation of Quebec.md",
     "Kingdom of Vendsyssel.md",
     "Kingdom of Baustralia.md",
@@ -197,13 +213,11 @@
     "Imperium of the Americas.md",
     "State of Gradonia.md",
     "Kingdom of Auvenum.md",
-    "Aenderese Republic.md",
     "Kingdom of Sorrenia.md",
     "Federal Republic of Hasanistan.md",
     "Kingdom Of East Caledonia.md",
     "Virgan Republic.md",
     "Community of Landashir.md",
-    "Austrovian Empire.md",
     "Micronations/Commonwealth of Wenonah.md",
     "Events/Turtle-Island Dispute.md",
     "quartz/content/Kingdom of Scynja.md",
