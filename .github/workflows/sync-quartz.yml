@@ -1,0 +1,33 @@
+name: Sync content to Quartz site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout quartz5 repo
+        uses: actions/checkout@v4
+        with:
+          repository: Carson1026/Micronations-diplomatic-web
+          token: ${{ secrets.QUARTZ_REPO_TOKEN }}
+          submodules: true
+          fetch-depth: 0
+
+      - name: Update submodule to latest vault commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cd content
+          git checkout main
+          git pull origin main
+          cd ..
+          git add content
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Auto-update vault submodule"
+
+      - name: Push changes
+        run: |
+          git push https://x-access-token:${{ secrets.QUARTZ_REPO_TOKEN }}@github.com/Carson1026/Micronations-diplomatic-web.git HEAD:v5
