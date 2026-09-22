@@ -3,6 +3,7 @@ aliases:
   - KNO
   - Northwood-Oregon
 ---
+Personal union with the [[Principate of Providentia]].
 Diplomatic Relations:
 * [[Republic of Sawdustistan]]: [[SAWNO Compact]]
 * [[Kingdom of Pibocip]]: [[Treaty of Mutual Recognition Between the Kingdom of Northwood-Oregon and The Kingdom of Pibocip]]
@@ -19,5 +20,8 @@ Diplomatic Relations:
 * [[Dominion of Minoir Minor]]
 * [[Republic of Floriland]]
 * [[Karno-Ruthenian Empire]]
+Member of:
+* [[High Kingdom of Mediolaurentia]]: Constitutent state
+Conventions ratified:
 # References
 * [Kingdom of Northwood-Oregon - MicroWiki](https://micronations.wiki/wiki/Kingdom_of_Northwood-Oregon)
